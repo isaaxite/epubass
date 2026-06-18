@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="id" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <meta property="dcterms:modified">{{modified}}</meta>
+    <meta name="generator" content="Ebook-lib 0.18.1"/>
+    <dc:identifier id="bookid">{{identifier.value}}</dc:identifier>
+    <dc:title>{{title}}</dc:title>
+    <dc:description>{{description}}</dc:description>
+    <dc:language>{{language}}</dc:language>
+    <dc:creator id="creator">{{author}}</dc:creator>
+    <dc:publisher>{{publisher}}</dc:publisher>
+    <dc:date>{{date}}</dc:date>
+    <meta name="cover" content="cover-img"></meta>
+  </metadata>
+  <manifest>
+    {{#each images}}
+      {{#if isCover}}
+        <item href="{{href}}" id="cover-img" media-type="{{mediaType}}" properties="cover-image"/>
+      {{else}}
+        <item href="{{href}}" id="{{href}}" media-type="{{mediaType}}"/>
+      {{/if}}
+    {{/each}}
+    {{#each texts}}
+      <item href="{{href}}" id="{{href}}" media-type="{{mediaType}}"/>
+    {{/each}}
+    {{#each styles}}
+      <item href="{{href}}" id="{{href}}" media-type="{{mediaType}}"/>
+    {{/each}}
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    {{#each spine}}
+      <itemref idref="{{this}}"/>
+    {{/each}}
+  </spine>
+</package>

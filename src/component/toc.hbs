@@ -1,0 +1,30 @@
+{{#*inline "navPoints"}}
+<navPoint id="{{src}}" playOrder="{{nextOrder}}">
+  <navLabel><text>{{text}}</text></navLabel>
+  <content src="{{src}}"/>
+  {{#if subs}}
+    {{#each subs}}
+      {{> navPoints}}
+    {{/each}}
+  {{/if}}
+</navPoint>
+{{/inline}}
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="3de32670813ab703eg013597"/>
+    <meta name="dtb:depth" content="0"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>{{title}}</text>
+  </docTitle>
+  <navMap>
+    {{#each toc}}
+      {{> navPoints}}
+    {{/each}}
+  </navMap>
+</ncx>
