@@ -1,0 +1,79 @@
+{
+  "title": "Re：从零开始的异世界生活『第二十五卷』",
+  "author": "长月达平",
+  "publisher": "KADOKAWA",
+  "date": "2014-06-12 00:00:00",
+  "language": "zh",
+  "identifier": {
+    "type": "isbn",
+    "value": "978-4-04-680080-0"
+  },
+  "description": "《Re:从零开始的异世界生活》，简称《Re:Zero》，是由长月达平撰写，大冢真一郎绘图的日本轻小说作品。故事以一名从便利店回家的途中突然发现自己来到了异世界的蛰居族菜月昴为中心。该作品最初于2012年4月起在投稿网站“成为小说家吧”连载，后来在2014年经由KADOKAWA旗下的MF文库J整理出版。",
+  "cover": "image/cover.JPG",
+  "spine": [
+    "text/chapter_cover.xhtml",
+    "text/chapter_color_figs.xhtml",
+    "text/chapter_toc.xhtml",
+    "text/chapter_1.xhtml",
+    "text/chapter_2.xhtml",
+    "text/chapter_3.xhtml",
+    "text/chapter_4.xhtml",
+    "text/chapter_5.xhtml",
+    "text/chapter_6.xhtml",
+    "text/chapter_7.xhtml",
+    "text/chapter_8.xhtml",
+    "text/chapter_9.xhtml",
+    "text/chapter_10.xhtml",
+    "text/chapter_appendix.xhtml"
+  ],
+  "toc": [{
+    "text": "封面",
+    "src": "text/chapter_cover.xhtml",
+    "subs": [{
+      "text": "封面x1",
+      "src": "text/chapter_cover_sub_1.xhtml"
+    }, {
+      "text": "封面x2",
+      "src": "text/chapter_cover_sub_1.xhtml"
+    }]
+  }, {
+    "text": "彩插",
+    "src": "text/chapter_color_figs.xhtml"
+  }, {
+    "text": "目录",
+    "src": "text/chapter_toc.xhtml"
+  }, {
+    "text": "第一章『■■·■』",
+    "src": "text/chapter_1.xhtml"
+  }, {
+    "text": "第二章『菜月·昴』",
+    "src": "text/chapter_2.xhtml"
+  }, {
+    "text": "第三章『露伊·亚尔聂博』",
+    "src": "text/chapter_3.xhtml"
+  }, {
+    "text": "第四章『Ready Steady Go』",
+    "src": "text/chapter_4.xhtml"
+  }, {
+    "text": "第五章『精神之死』",
+    "src": "text/chapter_5.xhtml"
+  }, {
+    "text": "第六章『Good Loser』",
+    "src": "text/chapter_6.xhtml"
+  }, {
+    "text": "第七章『拉姆』",
+    "src": "text/chapter_7.xhtml"
+  }, {
+    "text": "第八章『──询问目的』",
+    "src": "text/chapter_8.xhtml"
+  }, {
+    "text": "第九章『夏乌拉』",
+    "src": "text/chapter_9.xhtml"
+  }, {
+    "text": "第十章『英雄』",
+    "src": "text/chapter_10.xhtml"
+  }, {
+    "text": "附录",
+    "src": "text/chapter_appendix.xhtml"
+  }]
+}

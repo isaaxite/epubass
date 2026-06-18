@@ -5,14 +5,17 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "node ./script/build.js"
+    "dist": "node ./script/build.js",
+    "src": "mkdir -p src && unzip $npm_config_epub -d src/"
   },
   "author": "isaaxite",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "execa": "^9.6.0",
-    "fs-extra": "^11.3.0",
-    "mustache": "^4.2.0"
+    "fs-extra": "^11.3.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.9"
   }
 }
